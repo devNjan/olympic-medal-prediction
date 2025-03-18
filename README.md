@@ -2,14 +2,14 @@
 
 In this project, I used machine learning to predict how many medals a country will win in future Olympic Games based on historical data. The goal was to explore factors that influence Olympic success, such as the number of athletes and a country’s previous performance.
 
-#Objective
+# Objective
 
 The primary objectives of this project were to:
 
-    Predict the number of medals a country will win in future Olympic Games.
-    Explore how historical data (such as the number of athletes and past medal counts) correlates with a country's Olympic performance.
+1. Predict the number of medals a country will win in future Olympic Games.
+2. Explore how historical data (such as the number of athletes and past medal counts) correlates with a country's Olympic performance.
 
-#Project Steps
+# Project Steps
 
 The project was carried out in the following steps:
 
@@ -34,7 +34,7 @@ I divided the dataset into a training set and a test set. The training set consi
 7. Train a Model:
 I used a Linear Regression model to predict the number of medals. Linear regression is a basic and efficient method for predicting continuous values, and it was well-suited for this problem given the available data.
 
-#Project Files
+# Project Files
 
 The project includes the following files:
 
@@ -54,13 +54,13 @@ The data used for this project is derived from historical Olympic Games data:
 2. Linear Regression was a useful tool for building a baseline model to predict medal counts, but it might not be the best model for more complex cases, especially for countries with highly variable performance over time.
 3. On average, the model's predictions were off by around 3.30 medals. While this error isn't huge, it shows that there is room for improvement and the model can be refined further.
 
-#Future Enhancements
+# Future Enhancements
 
 1. One plan to improve the model is to experiment with more advanced techniques, like Decision Trees or Random Forests. These models are better suited for handling non-linear relationships, which could improve prediction accuracy.
 2. Cross-validation will be applied to get a better understanding of how the model performs on different subsets of the data. This will help assess whether the model is overfitting or underfitting.
 3. Adding more features, such as the age of athletes, historical performance trends, and types of events participated in, could increase the model's predictive power and lead to more accurate results.
 
-#Contact Information
+# Contact Information
 
 If you have any questions or suggestions, feel free to reach out. I am happy to discuss the project further or collaborate.
 
