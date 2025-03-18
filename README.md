@@ -1,4 +1,4 @@
-#Olympic Medals Prediction
+# Olympic Medals Prediction
 
 In this project, I used machine learning to predict how many medals a country will win in future Olympic Games based on historical data. The goal was to explore factors that influence Olympic success, such as the number of athletes and a country’s previous performance.
 
