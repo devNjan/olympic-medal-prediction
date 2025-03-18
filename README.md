@@ -1,52 +1,70 @@
-Predicting Olympic Medals
+# Olympic Medals Prediction
 
-In this project, I used machine learning to predict how many medals a country will win in the Olympics. I used historical data to see if we could figure out what factors—like how many athletes a country sends or how many medals they won before—affect the number of medals they win in future Olympic Games.
+# In this project, I used machine learning to predict how many medals a country will win in the upcoming Olympic Games based on historical data. The goal was to explore factors that influence Olympic success, such as the number of athletes and a country’s previous performance.
 Objective
 
-The main goal of this project is to predict how many medals a country will win in the Olympics based on data from previous Games. Specifically, I used features like:
+# The main goal of this project was to:
 
-    The number of athletes a country sends to the Olympics
-    The number of medals the country won in the past
-    Other factors like the country’s age and events
+    Predict the number of medals a country will win in future Olympic Games.
+    Explore how historical data (such as the number of athletes and past medal counts) relates to a country's Olympic performance.
 
-Steps I Followed
+# Project Steps
 
-Here’s a breakdown of the steps I took to complete the project:
+I followed these key steps to complete the project:
 
-    Forming a Hypothesis: I started by thinking about the problem. I wondered: Can the number of athletes and past medal wins help predict future success?
-    Finding and Exploring the Data: I worked with the Olympic dataset to gather information and understand what was available to use.
-    Reshaping the Data: Sometimes, the data wasn’t in the format I needed, so I changed it a little to make it easier to use for machine learning.
-    Cleaning the Data: I cleaned the data by handling any missing values or problems in the dataset to make sure it was ready for modeling.
-    Choosing an Error Metric: I decided to use Mean Absolute Error (MAE) to measure how accurate my predictions were.
-    Splitting the Data: I split the data into two parts: one for training the model and one for testing how well the model worked.
-    Training a Model: I used Linear Regression to create the model. This is a simple machine learning method that helps us predict a value based on other variables.
+    Form a Hypothesis: I started by thinking about the problem—whether the number of athletes and past performances could help predict future success.
 
-Project Files
+    Find and Explore the Data: I worked with an Olympic dataset, analyzing the information available to determine which features might be important for the prediction.
 
-Here are the two main files in the project:
+    Reshape the Data: I needed to transform the raw data into a format that would work better for machine learning. This involved processing the athlete-level data to create team-level data.
 
-    machine_learning.ipynb: This is where I built the model, did the data cleaning, and made predictions. It’s the main file for the project.
-    data_prep.ipynb: This file is used to get the data ready. It takes the original athlete-level data and transforms it into team-level data, which I used for the model.
+    Clean the Data: I cleaned the data by handling missing values and outliers to ensure it was ready for modeling.
 
-Data Sources
+    Pick an Error Metric: To measure how well the model was performing, I chose Mean Absolute Error (MAE), which tells us how far off the predictions were, on average.
 
-The data for this project comes from the Olympics dataset available on Kaggle. There are two main files I worked with:
+    Split the Data: I divided the dataset into two parts: a training set to train the model and a test set to evaluate its performance.
 
-    teams.csv: This file contains data about the teams (countries) and their performance in the Olympics.
-    athlete_events.csv: This file has information about individual athletes, which I used to generate the team-level data.
+    Train a Model: I used a simple Linear Regression model to predict the number of medals. Linear Regression was chosen because it's easy to understand and works well with this kind of problem.
 
-You can find the dataset on Kaggle here.
-Key Takeaways
+# Project Files
 
-    Important Features: The number of athletes and how many medals a country won in previous Olympics were important for predicting the number of medals they would win.
-    Model Choice: I used Linear Regression for this project because it's simple to understand and easy to work with.
-    Model Accuracy: The model made predictions that were off by about 3.30 medals on average, which means the model is not perfect but still gives a reasonable estimate.
-    Error Analysis: Some countries, like the USA, had a large difference between predicted and actual medal counts, which shows that a more advanced model might perform better for extreme cases.
+The project consists of the following files:
 
-Next Steps for Improvement
+    machine_learning.ipynb: This is the main notebook where the model is built, the data is cleaned, and the predictions are made.
+    data_prep.ipynb: This notebook is used to process and prepare the data. It transforms the original athlete-level data into team-level data.
 
-There are many ways to make this project better:
+#Data Sources
 
-    Use Advanced Models: Models like Decision Trees or Random Forests might give better results for predicting medals.
-    Cross-Validation: I can use cross-validation to check how well my model works on different parts of the data.
-    Add More Features: I could try using other features, like athlete age or events attended, to see if they make the predictions more accurate.
+The dataset used in this project comes from historical Olympic Games data. The two key datasets are:
+
+    teams.csv: Contains data about the teams (countries) and their performance in the Olympics.
+    athlete_events.csv: Contains individual athlete-level data, which I used to generate team-level data for the project.
+
+# Key Insights
+
+Here are some important takeaways from the project:
+
+    Key Features: The number of athletes a country sends and its past medal counts were found to be the most important predictors for how many medals a country would win.
+
+    Model Choice: I used Linear Regression, which is a simple and easy-to-understand machine learning model. It works well for predicting continuous values (like the number of medals).
+
+    Model Performance: The model's predictions were, on average, off by about 3.30 medals, meaning it was fairly accurate but not perfect.
+
+    Error Analysis: For some countries, like the USA, the model's predictions were significantly off. This indicates that the model could be improved for these extreme cases, and more advanced models might perform better.
+
+# Future Enhancements
+
+There are several ways to improve this project:
+
+    Use More Complex Models: Models like Decision Trees or Random Forests could improve prediction accuracy, especially for countries with extreme performance variations.
+
+    Cross-Validation: Implementing k-fold cross-validation would allow me to test the model on different subsets of the data and check its performance more robustly.
+
+    Add More Features: I could include more data points, such as the age of athletes, the events attended, or historical performance trends, to make the model even more accurate.
+
+# Contact Information
+
+If you have any questions or suggestions about the project, feel free to reach out to me:
+
+    Debanjan Debnath
+    Email: debanjandebnath05@gmail.com
