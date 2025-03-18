@@ -12,19 +12,19 @@ Objective
 
 I followed these key steps to complete the project:
 
-    Form a Hypothesis: I started by thinking about the problem—whether the number of athletes and past performances could help predict future success.
+Form a Hypothesis: I started by thinking about the problem—whether the number of athletes and past performances could help predict future success.
 
-    Find and Explore the Data: I worked with an Olympic dataset, analyzing the information available to determine which features might be important for the prediction.
+Find and Explore the Data: I worked with an Olympic dataset, analyzing the information available to determine which features might be important for the prediction.
 
-    Reshape the Data: I needed to transform the raw data into a format that would work better for machine learning. This involved processing the athlete-level data to create team-level data.
+Reshape the Data: I needed to transform the raw data into a format that would work better for machine learning. This involved processing the athlete-level data to create team-level data.
 
-    Clean the Data: I cleaned the data by handling missing values and outliers to ensure it was ready for modeling.
+Clean the Data: I cleaned the data by handling missing values and outliers to ensure it was ready for modeling.
 
-    Pick an Error Metric: To measure how well the model was performing, I chose Mean Absolute Error (MAE), which tells us how far off the predictions were, on average.
+Pick an Error Metric: To measure how well the model was performing, I chose Mean Absolute Error (MAE), which tells us how far off the predictions were, on average.
 
-    Split the Data: I divided the dataset into two parts: a training set to train the model and a test set to evaluate its performance.
+Split the Data: I divided the dataset into two parts: a training set to train the model and a test set to evaluate its performance.
 
-    Train a Model: I used a simple Linear Regression model to predict the number of medals. Linear Regression was chosen because it's easy to understand and works well with this kind of problem.
+Train a Model: I used a simple Linear Regression model to predict the number of medals. Linear Regression was chosen because it's easy to understand and works well with this kind of problem.
 
 # Project Files
 
